@@ -1,0 +1,290 @@
+body{
+  background-color:  #21222A;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+
+
+
+header>nav{
+
+      display: flex;
+      align-items: center;
+      background-color: #21222A;
+      height: 110px;
+      padding: 30px 25px;
+
+}
+
+.Title{
+  color: white;
+  width: 185px;
+padding-left: 40px;
+padding-top: 17px;
+}
+
+
+nav>ul{
+  margin: 0 650px;
+  list-style: none;
+  display: flex;
+}
+
+nav > ul > li:nth-child(1),
+nav > ul > li:nth-child(2),
+nav > ul > li:nth-child(3){
+  padding-right: 44px;
+  font-size: 28px;
+  color: white;
+}
+
+nav > ul > li:nth-child(1) > a,
+nav > ul > li:nth-child(2) > a,
+nav > ul > li:nth-child(3) > a{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav > ul > li:nth-child(1) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(1) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(2) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(2) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(3) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(3) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.secondTitle{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 15px;
+  text-decoration: underline;
+  text-decoration-color:white;
+  padding-top: 2px;
+
+}
+
+.secondSubtitle{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight:700 ;
+  margin-left: 17px;
+}
+
+.firstproj{
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  margin-left: 65px;
+}
+
+.FirstProjPic{
+  width: 400px;
+  float: right;
+  height: 255px;
+  padding-top: 12px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.FirstProjTitle{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+  padding-top: 110px;
+}
+
+.Secondproj{
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  margin-left: 65px;
+}
+
+.SecondProjPic{
+  width: 400px;
+  float: right;
+  height: 255px;
+  padding-top: 12px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.SecondProjTitle{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+  padding-top: 110px;
+}
+
+.Thirdproj{
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  margin-left: 65px;
+}
+
+.ThirdProjPic{
+  width: 400px;
+  float: right;
+  height: 255px;
+  padding-top: 12px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.ThirdProjTitle{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+  padding-top: 110px;
+}
+
+.Fourthproj{
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  margin-left: 65px;
+}
+
+.FourthProjPic{
+  width: 400px;
+  float: right;
+  height: 255px;
+  padding-top: 12px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.FourthProjTitle{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+  padding-top: 110px;
+}
+
+.Fifthproj{
+  margin:auto;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  margin-left: 65px;
+}
+
+.FifthProjPic{
+  width: 400px;
+  float: right;
+  height: 255px;
+  padding-top: 12px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.FifthProjTitle{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+  padding-top: 110px;
+}
+
+.footer{
+  width: 100%;
+
+  height: 120px;
+    margin-top: 48px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.design{
+  color: white;
+}
+
+.design> a{
+  color: white;
+}
+
+.copy{
+  color: white;
+  padding-top: 10px;
+}
