@@ -197,13 +197,22 @@ background-color: #0087ca;
 
 .footer{
   width: 100%;
-  background-color: white;
+
   height: 120px;
     margin-top: 48px;
     text-align: center;
     font-size: 25px;
 }
 
+.design{
+  color: white;
+}
+
+.design> a{
+  color: white;
+}
+
 .copy{
+  color: white;
   padding-top: 10px;
 }

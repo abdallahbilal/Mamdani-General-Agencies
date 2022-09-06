@@ -196,3 +196,57 @@ nav > ul > li:nth-child(3) > a:hover:after
   text-align: left;
   margin-left: 67px;
 }
+
+.OurVision{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+}
+
+.ParagraphOV{
+  font-size: 18px;
+  font-weight:700 ;
+  width: 80%;
+  margin: auto;
+  line-height: 23px;
+}
+
+.OurPromise{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration-color:  #0087ca;
+  text-align: left;
+  padding-left: 67px;
+}
+
+.OurPromiseItems{
+  font-size: 18px;
+  font-weight:700 ;
+  width: 50%;
+  margin: auto;
+  line-height: 27px;
+  text-align: left;
+  margin-left: 67px;
+}
+
+.footer{
+  width: 100%;
+
+  height: 120px;
+    margin-top: 48px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.design{
+  color: white;
+}
+
+.design> a{
+  color: white;
+}
+
+.copy{
+  color: white;
+  padding-top: 10px;
+}
